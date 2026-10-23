@@ -1,0 +1,36 @@
+RUMAL RUSH — SHURU KAISE KARNA HAI
+
+1. ZIP download karke us par right-click → Extract All karo.
+2. Roblox Studio kholo.
+3. Upar File → Open from File par click karo.
+4. Extracted folder mein RumalRush.rbxl select karo.
+5. Upar blue Play button dabao.
+6. Game ke andar PLAY A MATCH dabao.
+
+Bas! Koi code paste ya plugin install nahi karna.
+
+GAME KAISE KHELNA HAI
+WASD se chalo.
+Beech ka gold rumal E se uthao.
+Apni team ki colored line tak wapas bhaago.
+Agar doosra player rumal le jaye, uske paas jao — tag automatic hai.
+Shift se chhota dash milega; phir cooldown hoga.
+Pehle 3 points wali team jeetegi.
+
+Akele ho toh Milo bot khelega.
+Practice difficulty menu se EASY ya STANDARD kar sakte ho.
+LOCKER mein earned coins se scarf colors aur trails milti hain.
+
+NOTE
+Local unpublished file mein coins sirf current session tak rehte hain.
+Robux buying abhi OFF hai — tumhara real game-pass ID chahiye hoga.
+File → Publish to Roblox tumhare apne account se karna hota hai.
+Abhi public publish karne se pehle Play test karna zaroori hai.
+Humne cloud par automated checks kiye hain; Roblox Studio ka actual test baqi hai.
+
+FILES
+RumalRush.rbxl         Main game — ye kholo.
+RumalRush.rbxlx        Same game ka alternate XML format.
+Arena-preview.png     Map geometry ka preview, Studio screenshot nahi.
+source/               Poora editable code, build tools aur tests.
+TEST-RESULTS.txt       Jo checks hue aur jo Studio mein baqi hain.

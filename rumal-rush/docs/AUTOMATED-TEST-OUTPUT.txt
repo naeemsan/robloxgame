@@ -1,0 +1,52 @@
+PASS: 7 production scripts compile
+PASS	finite rejects NaN and infinity
+PASS	court boundaries include edges
+PASS	reject teleport outside court or under floor
+PASS	only live nearby pickup succeeds
+PASS	second pickup rejected
+PASS	dash cooldown and phase
+PASS	no tag before pickup
+PASS	no score during countdown or result
+PASS	teal carrier reaches teal line
+PASS	coral carrier reaches coral line
+PASS	opponent home line never scores
+PASS	tag scores defender after grace
+PASS	pickup grace prevents instant tag
+PASS	tag wins exact home-line tie
+PASS	three dimensional distance used
+PASS	timeout awards defense when carried
+PASS	unclaimed scarf timeout is a draw
+PASS	first to three ends match
+PASS	round cap ends ties and stalled matches
+PASS	cosmetic spends once then equips for free
+PASS	insufficient coins cannot create ownership
+PASS	paid cosmetic cannot be bought with forged coin price
+PASS	movement budget allows normal walk
+PASS	movement budget rejects teleport
+PASS	movement budget catches sustained overspeed
+PASS	bounded replication burst is tolerated
+PASS	complete escape match simulation
+RESULT: 27 rule tests passed
+PASS	new profile loads and takes session lease
+PASS	rewards, cosmetic purchase and save survive reload
+PASS	existing live lease cannot be overwritten
+PASS	expired lease can be recovered
+PASS	lost lease disables subsequent saves
+PASS	failed initial load enters practice without writing defaults
+PASS	save failure retains session for a later retry
+PASS	unknown cosmetic and fake pass ownership rejected
+PASS	malformed stored values sanitized
+PASS	departure during load releases acquired lease
+PASS	autosave renews lease and exit clears it
+RESULT: 11 persistence tests passed (mock service)
+PASS	easy bot pauses before approaching
+PASS	bot approaches scarf and requests nearby pickup
+PASS	carrier bot returns to correct home line
+PASS	defender bot reacts after its response delay
+PASS	standard approach is faster than easy
+PASS	bot dash has a cooldown
+PASS	bot stays within playable court
+RESULT: 7 bot decision tests passed (vector fixture, not Roblox physics)
+Built a.rbxlx: 7 scripts, 115 static parts, 187,776 bytes
+Built b.rbxlx: 7 scripts, 115 static parts, 187,776 bytes
+PASS: deterministic XML build; complete script embedding; arena budget; unique references; Rojo manifest

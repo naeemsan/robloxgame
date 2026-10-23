@@ -1,0 +1,11 @@
+{
+  "name": "RumalRush",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": { "$className": "ReplicatedStorage", "$path": "src/ReplicatedStorage" },
+    "ServerScriptService": { "$className": "ServerScriptService", "$path": "src/ServerScriptService" },
+    "StarterPlayer": { "$className": "StarterPlayer", "$path": "src/StarterPlayer" },
+    "Workspace": { "$className": "Workspace", "$properties": { "StreamingEnabled": false }, "Arena": { "$path": "assets/Arena.rbxmx" } },
+    "Lighting": { "$className": "Lighting", "$properties": { "ClockTime": 15, "GlobalShadows": false, "Brightness": 2 } }
+  }
+}

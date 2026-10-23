@@ -1,0 +1,26 @@
+TITLE
+Rumal Rush — Courtyard Duels
+
+SHORT DESCRIPTION
+One scarf. Two rivals. Grab it and get home — or tag the runner before they escape!
+
+FULL DESCRIPTION
+The courtyard is calling.
+
+Rumal Rush brings a real playground chase into quick Roblox duels:
+• Bait your rival, grab the rumal, and dash to your colored home line.
+• Miss the pickup? Chase the carrier and tag them to score.
+• First team to 3 wins.
+• Play solo against Milo, or bring friends and rotate through team duels.
+• Earn scarf colors and trails just by playing.
+
+Controls:
+Move: WASD / thumbstick
+Grab: E / gamepad X / touch button
+Dash: Shift / gamepad B / touch button
+
+Cosmetics never increase speed or tagging strength.
+
+OWNER NOTE
+Draft copy only. Do not advertise verified performance, first-ever originality,
+or live purchases until those claims are supported by your published experience.
