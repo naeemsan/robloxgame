@@ -1,0 +1,10 @@
+{
+  "name": "TheLastEmber",
+  "tree": {
+    "$className": "DataModel",
+    "Workspace": { "$className": "Workspace", "$properties": { "StreamingEnabled": false }, "Manor": { "$path": "assets/Manor.rbxmx" } },
+    "ReplicatedStorage": { "$className": "ReplicatedStorage", "$path": "src/ReplicatedStorage" },
+    "ServerScriptService": { "$className": "ServerScriptService", "$path": "src/ServerScriptService" },
+    "StarterPlayer": { "$className": "StarterPlayer", "$path": "src/StarterPlayer", "$properties": { "CameraMinZoomDistance": 5, "CameraMaxZoomDistance": 10 } }
+  }
+}

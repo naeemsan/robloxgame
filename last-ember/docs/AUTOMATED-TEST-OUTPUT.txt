@@ -1,0 +1,51 @@
+PASS: 6 production Luau scripts compile
+PASS	reject nonfinite input
+PASS	house bounds include furnace
+PASS	garden outside mission bounds
+PASS	outside walls invalid
+PASS	underfloor invalid
+PASS	NaN position invalid
+PASS	valid held interaction
+PASS	short hold rejected
+PASS	engine hold tolerance bounded
+PASS	distant interaction rejected
+PASS	lobby interaction rejected
+PASS	result interaction rejected
+PASS	dead and downed cannot interact
+PASS	empty hands can pick up known items
+PASS	full hands cannot duplicate pickup
+PASS	unknown item rejected
+PASS	downed pickup rejected
+PASS	burning requires power
+PASS	fuse progression and maximum
+PASS	empty deposit makes no progress
+PASS	all seals burned once
+PASS	escape gated by six seals
+PASS	downed cannot escape
+PASS	sprinting drains stamina
+PASS	rest restores stamina within cap
+PASS	stamina never below zero
+PASS	dt spikes capped
+PASS	hidden alive allowed only when unseen
+PASS	downed cannot hide
+PASS	living teammate keeps rescue possible
+PASS	all downed lose unless solo server rescues
+PASS	one escape survives loss of remaining team
+PASS	escaped player waits while teammate alive
+PASS	timeout with no escape loses
+PASS	timeout with escape is partial success
+PASS	empty party abandons
+PASS	threat increases and caps
+PASS	hidden candidates excluded from monster targeting
+PASS	unseen quiet candidate excluded
+PASS	running can be heard without line of sight
+PASS	seal carrier is prioritized at similar range
+PASS	dead target excluded
+PASS	movement budget allows walking
+PASS	teleport rejected
+PASS	complete mission simulation
+RESULT: 45 horror rule tests passed
+PASS: 7237 connected walkable grid cells; all loot, refuge exits, patrol zones and mission stations reachable in clearance model
+Built a.rbxlx: 6 scripts, 507 architecture parts
+Built b.rbxlx: 6 scripts, 507 architecture parts
+PASS: deterministic place; exact script embedding; 507-part / 15-light budget; third-person camera; realistic lighting; 7 original WAVs

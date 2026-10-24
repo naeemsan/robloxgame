@@ -1,0 +1,48 @@
+THE LAST EMBER — ROMAN URDU GUIDE
+
+YEH NAYA HORROR GAME HAI.
+Purani RumalRush file nahi kholni.
+
+1. TheLastEmber.rbxl download karo.
+2. Roblox Studio kholo.
+3. File → Open from File → TheLastEmber.rbxl select karo.
+4. Upar Play dabao.
+5. Game ke andar ENTER THE HOUSE dabao.
+
+CAMERA
+Character ke peeche third-person camera hai.
+Mouse se look, WASD se movement.
+Mouse wheel se 5–10 stud tak zoom kar sakte ho.
+
+MISSION
+Do blue fuses dhoondo.
+Cross-corridor ke left/west end par generator mein lagao.
+Phir chhe gold seals dhoondo aur north ki ash chamber mein jalao.
+Sab seals jal jayein toh front gate se bahar niklo.
+
+E hold: item lena / fuse lagana / seal jalana / revive karna.
+Shift hold: sprint.
+F: flashlight.
+G: haath ka item neeche rakhna.
+H: wardrobe se bahar aana.
+Q: team ko call karna.
+
+Akele kheloge toh ek second chance milti hai.
+2–4 log saath khel sakte hain; sab ready countdown mein Enter dabayein.
+
+GRAPHICS
+Default CINEMATIC hai.
+Lag ho toh SETTINGS → QUALITY → BALANCED ya LOW karo.
+Scares aur sound ke options bhi Settings mein hain.
+
+SOUNDS
+Game mein built-in fallback sounds hain.
+Original scary WAV files sound pack mein hain.
+Unhein Roblox par apne creator account se upload karke
+Config ke Audio IDs lagane padte hain. Yeh Roblox ki permission requirement hai.
+
+IMPORTANT
+Cloud par build aur automated tests hue hain.
+Actual Studio playtest abhi verified nahi hai.
+Public publish se pehle solo aur 2-player test karna chahiye.
+Agar red error aaye toh Output ka exact error bhejna.

@@ -1,29 +1,43 @@
-# Rumal Rush
+# The Last Ember — third-person co-op horror
 
-A lightweight Roblox courtyard game inspired by Rumal Jhapatta / Steal the Bacon. Grab the scarf and reach your home line, or chase and tag the carrier. Includes a solo practice bot, multiplayer team duels, a scoreboard, coin cosmetics, and optional cosmetic game-pass support.
+Enter an abandoned manor with up to three friends. Find two fuses, restore the generator, burn six cursed seals, and escape while the Mourner hunts you.
 
-## Download and open — no code pasting
+## Download the new horror game
 
-- **[Download the Studio game file](https://github.com/naeemsan/robloxgame/raw/refs/heads/main/dist/RumalRush.rbxl)**
-- **[Download the complete game + source ZIP](https://github.com/naeemsan/robloxgame/raw/refs/heads/main/dist/RumalRush-Full-Package.zip)**
-- [Source-only ZIP](https://github.com/naeemsan/robloxgame/raw/refs/heads/main/dist/RumalRush-Source.zip)
-- [Roman Urdu opening guide](dist/START-HERE.txt)
+- **[Download TheLastEmber.rbxl — open this in Studio](https://github.com/naeemsan/robloxgame/raw/refs/heads/main/dist/last-ember/TheLastEmber.rbxl)**
+- **[Complete game + source + audio ZIP](https://github.com/naeemsan/robloxgame/raw/refs/heads/main/dist/last-ember/TheLastEmber-Full-Package.zip)**
+- [Source-only ZIP](https://github.com/naeemsan/robloxgame/raw/refs/heads/main/dist/last-ember/TheLastEmber-Source.zip)
+- [Original horror sound pack — 7 WAV files](https://github.com/naeemsan/robloxgame/raw/refs/heads/main/dist/last-ember/TheLastEmber-Audio.zip)
+- [Roman Urdu opening guide](dist/last-ember/START-HERE.txt)
 
-Alternatively, click the green **Code** button above → **Download ZIP**. Extract the downloaded folder, then open **dist/RumalRush.rbxl** in Roblox Studio using **File → Open from File**. Press **Play**, then click **PLAY A MATCH** inside the game.
+**Open:** Roblox Studio → File → Open from File → TheLastEmber.rbxl → Play → ENTER THE HOUSE.
 
-**Roman Urdu:** ZIP download karo → right-click → Extract All → Studio kholo → File → Open from File → dist folder mein RumalRush.rbxl kholo → Play dabao. Koi script paste ya plugin install nahi karna.
+**Roman Urdu:** Ab purani RumalRush file nahi kholni. Nayi file dist/last-ember/TheLastEmber.rbxl hai. Yeh character ke peeche third-person camera wala horror game hai.
 
-## What is verified
+You can also use **Code → Download ZIP**, extract it, and find the new game under **dist/last-ember/**.
 
-45 automated tests passed, all 7 production Luau scripts compiled, and both binary and XML Roblox place files built successfully. **Actual Roblox Studio gameplay, online saves, payment prompts, and low-end FPS still need testing.** This is a v1 build for Studio testing, not a verified public launch.
+## Included
 
-Robux purchases are disabled until the owner supplies a real game-pass ID. An unpublished local place runs in practice mode without persistent saves.
+Third-person camera; original manor; Realistic lighting and flashlight shadows; 1–4 player mission; pathfinding enemy with sight/hearing; stamina; revives; short wardrobe hiding; a solo second chance; close-up jumpscares; heartbeat and positional enemy footsteps; graphical quality and scare settings.
 
-## Source and details
+Built-in sound fallbacks work without assigning marketplace IDs. **The supplied original WAVs require owner-side upload and experience permissions before they replace those fallbacks.** See the [audio setup guide](last-ember/docs/AUDIO-SETUP.md).
 
-- [Game source and development instructions](rumal-rush/README.md)
-- [Test results and remaining Studio checks](rumal-rush/docs/TESTING.md)
-- [Research notes](rumal-rush/docs/RESEARCH.md)
-- [Rojo project](rumal-rush/default.project.json)
+## Validation
 
-![Arena layout render — not a Studio screenshot](dist/Arena-preview.png)
+Six scripts compile, 45 offline rules tests pass, and a clearance model reaches all mission stations, loot locations and hiding exits. Both Roblox file formats build successfully.
+
+**Actual Roblox Studio playtesting, enemy locomotion/navmesh, co-op latency, device UI, sound playback and FPS remain unverified.** This is an atmospheric stylized build, not a claim of photorealistic graphics or guaranteed low-end performance. Read the [Studio test checklist](last-ember/docs/TESTING.md) before public release.
+
+- [Full game documentation](last-ember/README.md)
+- [Test output](last-ember/docs/AUTOMATED-TEST-OUTPUT.txt)
+- [Source](last-ember/src)
+
+### Interior layout preview
+
+This is an offline render of the authored manor geometry, **not a Roblox Studio screenshot**. It illustrates the layout; actual engine lighting and materials differ.
+
+![Offline manor interior render](dist/last-ember/Interior-preview.png)
+
+### Previous prototype
+
+The previous Rumal Rush project is preserved in [rumal-rush/](rumal-rush/) and its original dist files. It is not the current horror game.
